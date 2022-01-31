@@ -37,14 +37,7 @@
                 android:gravity="center"
                 android:textColor="#85bbc5"
                 android:text="Available" />
-            <TextView
-                android:id="@+id/teamId"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:gravity="center"
-                android:textColor="#85bbc5"
-                android:text="123" />
+
 
         </LinearLayout></LinearLayout>
 

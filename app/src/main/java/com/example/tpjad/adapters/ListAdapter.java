@@ -32,11 +32,11 @@ public class ListAdapter extends ArrayAdapter<Team> {
         }
         TextView teamName = convertView.findViewById(R.id.teamName);
         TextView teamStatus = convertView.findViewById(R.id.teamStatus);
-        TextView teamId = convertView.findViewById(R.id.teamId);
+
 
         teamName.setText("Team: " + team.getName());
         teamStatus.setText("Current Status: "+team.getStatus());
-        teamId.setText("Team Id: " +team.getId());
+
 
         return convertView;
     }
