@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/welcome_screen">
+
+
+    <TextView
+        android:id="@+id/idTVWelcome1"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:gravity="center"
+        android:text="Welcome Agent"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/agentName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/idTVWelcome1"
+        android:layout_marginTop="-27dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/agentId"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/agentName"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Badge Number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/agentTeam"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/agentId"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Team"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/idBtnLogout1"
+        android:layout_width="238dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/agentTeam"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="193dp"
+        android:text="Logout" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/drawable/ic_home_background.xml" value="0.3828125" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/drawable/login_button.xml" value="1.0" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/drawable/login_edittext.xml" value="0.2578125" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/activity_home.xml" value="0.1778115501519757" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/activity_home2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/activity_main_agent.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/activity_main_dispatcher.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/activity_team.xml" value="0.25885416666666666" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/fragment_agent_mission.xml" value="0.24166666666666667" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/fragment_agent_welcome.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/fragment_dispatcher_mission.xml" value="0.24166666666666667" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/fragment_dispatcher_welcome.xml" value="0.21770833333333334" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/fragment_fifth.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/fragment_first.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/fragment_fourth.xml" value="0.33" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/fragment_item.xml" value="0.20520833333333333" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/fragment_item_list.xml" value="0.19114583333333332" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/fragment_second.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/fragment_third.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/layout/list_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/TPJAD/app/src/main/res/menu/bottom_nav_menu.xml" value="0.21770833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

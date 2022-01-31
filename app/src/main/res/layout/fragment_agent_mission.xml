@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/missionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Mission"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/currentMission"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_below="@+id/missionText"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:hint="Current Mission" />
+
+    <EditText
+        android:id="@+id/mLocation"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_below="@+id/currentMission"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:hint="Mission Location" />
+
+    <EditText
+        android:id="@+id/mDetails"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_below="@+id/mLocation"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:hint="Mission Details" />
+
+    <Button
+        android:id="@+id/mStatus"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_below="@+id/mDetails"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="FINISHED"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FourthFragment">
+
+    <TextView
+        android:id="@+id/missionAssignment"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Mission Details: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@+id/missionAssignment"
+        android:layout_marginTop="79dp"
+        android:gravity="center"
+        android:text="Location: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <EditText
+        android:id="@+id/missionLocation"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_below="@+id/location"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Enter location details" />
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_below="@+id/missionLocation"
+        android:layout_marginTop="39dp"
+        android:gravity="center"
+        android:text="Details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <EditText
+        android:id="@+id/missionDetails"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_below="@id/details"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Give Details:"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:id="@+id/matchTeam"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/missionDetails"
+        android:gravity="center"
+        android:text="Select the team"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/matchTeam"
+        android:gravity="center" />
+
+
+
+    <Button
+        android:id="@+id/addMission"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Assign Mission" />
+    <Button
+        android:id="@+id/cancelMission"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/addMission"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Cancel" />
+
+
+</RelativeLayout>
