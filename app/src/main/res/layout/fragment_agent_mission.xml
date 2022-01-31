@@ -2,54 +2,72 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/missions_screen">
 
     <!-- TODO: Update blank fragment layout -->
 
     <TextView
         android:id="@+id/missionText"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
         android:gravity="center"
         android:text="Mission"
-        android:textColor="@color/black"
-        android:textSize="40dp" />
+        android:textSize="40dp"
+        android:textColor="#85bbc5"
+/>
 
     <EditText
         android:id="@+id/currentMission"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
         android:layout_height="51dp"
         android:layout_below="@+id/missionText"
         android:layout_marginTop="40dp"
         android:gravity="center"
-        android:hint="Current Mission" />
+        android:hint="Current Mission"
+        android:textColor="#85bbc5"
+        android:textColorHint="#85bbc5"
+       />
 
     <EditText
         android:id="@+id/mLocation"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
         android:layout_height="51dp"
         android:layout_below="@+id/currentMission"
         android:layout_marginTop="30dp"
         android:gravity="center"
-        android:hint="Mission Location" />
+        android:hint="Mission Location"
+        android:textColor="#85bbc5"
+        android:textColorHint="#85bbc5"
+        />
 
     <EditText
         android:id="@+id/mDetails"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
         android:layout_height="51dp"
         android:layout_below="@+id/mLocation"
         android:layout_marginTop="30dp"
         android:gravity="center"
-        android:hint="Mission Details" />
+        android:hint="Mission Details"
+        android:textColor="#85bbc5"
+        android:textColorHint="#85bbc5"
+        />
 
     <Button
         android:id="@+id/mStatus"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
         android:layout_height="51dp"
         android:layout_below="@+id/mDetails"
         android:layout_marginTop="30dp"
         android:gravity="center"
-        android:text="FINISHED"/>
+        android:background="@drawable/login_button"
+        android:text="FINISHED" />
 
 
 </RelativeLayout>

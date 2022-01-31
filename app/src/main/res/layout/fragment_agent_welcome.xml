@@ -51,13 +51,12 @@ android:layout_height="match_parent"
 
     <Button
         android:id="@+id/idBtnLogout1"
-        android:layout_width="238dp"
-        android:layout_height="55dp"
+        android:layout_width="304dp"
+        android:layout_height="73dp"
         android:layout_below="@+id/agentTeam"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="110dp"
-        android:layout_marginBottom="193dp"
+        android:background="@drawable/login_button"
         android:text="Logout" />
 
 </RelativeLayout>

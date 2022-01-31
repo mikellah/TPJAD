@@ -34,9 +34,9 @@ public class ListAdapter extends ArrayAdapter<Team> {
         TextView teamStatus = convertView.findViewById(R.id.teamStatus);
         TextView teamId = convertView.findViewById(R.id.teamId);
 
-        teamName.setText(team.getName());
-        teamStatus.setText(team.getStatus());
-        teamId.setText(team.getId());
+        teamName.setText("Team: " + team.getName());
+        teamStatus.setText("Current Status: "+team.getStatus());
+        teamId.setText("Team Id: " +team.getId());
 
         return convertView;
     }

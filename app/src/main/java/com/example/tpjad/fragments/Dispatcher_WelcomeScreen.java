@@ -58,7 +58,16 @@ public class Dispatcher_WelcomeScreen extends Fragment {
 
         // initializing our textview and button.
         TextView welcomeTV = view.findViewById(R.id.idTVWelcome1);
-        welcomeTV.setText("Welcome dispatcher \n"+ user.getName());
+        TextView agentName = view.findViewById(R.id.agentName);
+        TextView agentId = view.findViewById(R.id.agentId);
+        TextView agentTeam= view.findViewById(R.id.agentTeam);
+
+
+        welcomeTV.setText("Welcome " + user.getRole().getAuthority()+ " \n");
+        agentName.setText("Name: " + user.getName());
+        agentId.setText("Badge Number " + user.getBadgeNumber());
+        agentTeam.setText("You are in Team: "+user.getTeam().getId());
+
         Button logoutBtn = view.findViewById(R.id.idBtnLogout1);
         logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override

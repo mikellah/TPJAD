@@ -23,9 +23,11 @@
                 android:layout_width="407dp"
                 android:layout_height="wrap_content"
                 android:text="Team 1"
-                android:textSize="26dp"
+                android:textSize="26sp"
                 android:textStyle="bold"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:textColor="#85bbc5"
+               />
 
             <TextView
                 android:id="@+id/teamStatus"
@@ -33,6 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:gravity="center"
+                android:textColor="#85bbc5"
                 android:text="Available" />
             <TextView
                 android:id="@+id/teamId"
@@ -40,6 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:gravity="center"
+                android:textColor="#85bbc5"
                 android:text="123" />
 
         </LinearLayout></LinearLayout>
