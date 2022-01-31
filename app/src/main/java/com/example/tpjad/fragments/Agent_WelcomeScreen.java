@@ -62,7 +62,7 @@ public class Agent_WelcomeScreen extends Fragment {
         welcomeTV.setText("Welcome " + user.getRole().getAuthority()+ " \n");
         agentName.setText("Name: " + user.getName());
         agentId.setText("Badge Number " + user.getBadgeNumber());
-        agentTeam.setText("You are in Team: "+user.getTeam().getId());
+        agentTeam.setText("You are in Team: "+user.getTeam().getName());
 
         logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
